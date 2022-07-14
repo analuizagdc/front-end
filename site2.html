@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <style>
+        
+#azul {
+    height: 150%;
+    width: 16.5%;
+    position: absolute ;
+    z-index: -2;
+    background: #18181c;
+    top: 0; 
+    left: 0;
+    bottom: 0;
+}
+#titulo {
+    position: absolute;
+    left: 19%;
+    top: 4%;
+    cursor: pointer;
+}
+#home {
+    position: absolute;
+    left: 0;
+    color: white;
+    top: 10.5%;
+    background-color: #99896e;
+    cursor: pointer;
+    width: 31.5%;
+    height: 4.6%;
+    text-align: right;
+    font-family: 'Alata', sans-serif;
+    line-height: 47px;
+    padding-right: 14px;
+    font-size: 14px;
+}
+nav ul {
+    color: white;
+    font-family: 'Alata', sans-serif;
+    list-style: none;
+    position: absolute; 
+    left: -40px;
+    top: 25.4%;
+    font-size: 14px;
+    cursor: pointer;
+}
+ul li {
+    padding: 15px;
+    width: 110%;
+    text-align: center;
+}
+li:hover {
+    background-color: #99896e;
+    transition: all .4s ease-in-out;
+}
+}
+#fliter {
+    color: #99896e;
+    font-family: 'Alata', sans-serif;
+    width: 5%;
+    position: absolute;
+    top: 63.6%;
+    font-size: 17px;
+    left: 2.6%;
+    cursor: pointer;
+}
+#All {
+    position: absolute;
+    left: 0;
+    color: white;
+    top: 70%;
+    background-color: #99896e;
+    cursor: pointer;
+    height: 5.9%;
+    text-align: right;
+    font-family: 'Alata', sans-serif;
+    line-height: 39px;
+    padding-right: 20px;
+    font-size: 14px;
+    width: 5.5%;
+}
+#list2{
+    position: absolute;
+    top: 76%;
+    color: white;
+    width: 6.5%;
+    list-style: none;
+    left: -40px;
+    font-family: 'Alata', sans-serif;
+    cursor: pointer;
+    font-size: 15px;
+    padding-top: 10px;
+}
+.copyright {
+    color: #99896e;
+    font-family: 'Alata', sans-serif;
+    position: absolute;
+    top: 138.6%;
+    left: 2.5%;
+    font-size: small;
+}
+a {
+    color: #99896e;
+}
+img{
+    cursor: crosshair;
+    transition: all ease-in-out .4s;
+}
+#cara {
+    position: absolute;
+    height: 79%;
+    width: 19%;
+    left: 20%;
+    top: 10%;
+}
+#segundo {
+    position: absolute;
+    height: 37%;
+    width: 37%;
+    left: 39%;
+    top: 10%;
+}
+#terceiro {
+    position:absolute;
+    left: 76%;
+    top: 10%;
+    width: 20%;
+    height: 37%;
+}
+#quarta {
+    position: absolute;
+    left: 39%;
+    top: 47.1%;
+    height: 42%;
+    width: 18%;
+}
+#quinta {
+    position: absolute;
+    left: 57.1%;
+    top: 47.1%;
+    height: 42%;
+    width: 18.9%;
+}
+#sexta {
+    position:absolute;
+    height: 42%;
+    left: 76%;
+    top: 47.1%;
+    width: 20%;
+}
+#setima {
+    position: absolute;
+    left: 20%;
+    width: 19%;
+    top: 89%;
+}
+#oito {
+    position: absolute;
+    left: 39%;
+    top: 89%;
+    width: 18%;
+    height: 39%;
+}
+#ultima {
+    position: absolute;
+    left: 57.1%;
+    width: 38.9%;
+    top: 89%;
+    height: 39%;
+}
+    </style>
+    <title> Cocoon -Portfolio</title>
+</head>
+<body>
+    <div id="azul">
+    <img id="titulo" src="data:image/webp;base64,UklGRngCAABXRUJQVlA4TGwCAAAvowAHEH8gFkzmL92ZwvzP/0QkdBzIsbZtmZNnJK4lzuyA2UGmxpId2AY8wd1Kl9J770NWgEM56SjjLjfyvu/3c86/gIj+M3DbSFF7jJlZfIMkjfwEThWVI9/D+GOjcuMRcEtJOXH3lhe9yok/EDkvu3XgYlEjm0CHcuEa8EqS+oBLyoVfA+2GYA3qtkRvwdwpDzaxBed8MYyuw8UmKc03AhRG1uCMtAiUDc2Cu1G1VeR2wdB8t9XPor3DeI+U4jMa2gU4qTX4GFWNRleglknSU7C8knTZQcyVleIz2sa4tGkozY1Tp06VpTs4m7AcHjRL2sB5WEm+EQJ3bKfrwVrA1BPj9iZwSwm+BFL/DgzHawWoN+kaphSWgaMa2IFpW9QXVF0H2pN8I5biCnB7NyWTjQOy7zZoE55ImgEK/84/Fmw970/xGR2wiZ0mqVlX50aA1m7gkGsjZe1CryuPVyk+jbjiXoJ6erPk6lwF6KgZTKly6tSpYtW3mEWop/i8DFL68qrNr7QLXQPml84DQIsk83yKL6H0a6ueYweODABNXgHEJ6CY4EvItIOcKdVWm/7pts/i4cRJAqKwGmcgoSWgFPYnpqS9q+YRB+EfMTZ8WfU6gF2DOWk27vDNh/xr2oWegD3gy6Aa8CTsl12LcXal+xQoupblHPBlkDaBCwU7dhyUb9VmiPetv28LPvrWX5GkgC+bZohcDjrHriADzv1BJ+rg1wO8tCpBR0mvgY/VnaEXDXTnP6Sn8TwhDjpzT69gl116mZrL1LYCxGA0mraj0ftYta3/kEZ+JeZblcdG4Yh51jONbRgFfJlUBw=="> 
+    <p id="home">Home</p></div>
+    <nav>
+        <ul>
+            <li> About Us</li>
+            <li> Services</li>
+            <li> Portfolio</li>
+            <li> Blog</li>
+            <li> Contact</li>
+        </ul>
+    </nav>
+    <p id="fliter">Filter By:</p>
+    <p id="All">All</p>
+    <ul id="list2">
+        <li>Branding</li> 
+        <li>Desing</li> 
+        <li>Photography</li> 
+        <li>Architecture</li>
+    </ul>
+    <p class="copyright">Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights <br> reserved | This template is <br>made with <i class="fa fa-heart-o" aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank">Colorlib</a></p>
+    <img id= "cara" src="https://preview.colorlib.com/theme/cocoon/assets/img/portfolio/xhome-port1.png.pagespeed.ic.pz4qWb_pFA.webp">
+    <img id="segundo" src="https://preview.colorlib.com/theme/cocoon/assets/img/portfolio/xhome-port2.png.pagespeed.ic.F1ngnxdKck.webp">
+    <img id= "terceiro" src="https://preview.colorlib.com/theme/cocoon/assets/img/portfolio/xhome-port3.png.pagespeed.ic.KWfce39_nP.webp">
+    <img id="quarta" src="https://preview.colorlib.com/theme/cocoon/assets/img/portfolio/xhome-port4.png.pagespeed.ic.xQm55zjp-v.webp">
+    <img id="quinta" src="https://preview.colorlib.com/theme/cocoon/assets/img/portfolio/xhome-port5.png.pagespeed.ic.UKv96bLIrb.webp">
+    <img id="sexta" src="https://preview.colorlib.com/theme/cocoon/assets/img/portfolio/xhome-port6.png.pagespeed.ic.GrOadRKUis.webp">
+    <img id="setima" src="https://preview.colorlib.com/theme/cocoon/assets/img/portfolio/xhome-port7.png.pagespeed.ic.ClGN-MQGA0.webp">
+    <img id="oito" src="https://preview.colorlib.com/theme/cocoon/assets/img/portfolio/xhome-port8.png.pagespeed.ic.HbGoobuS_K.webp">
+    <img id="ultima" src="https://preview.colorlib.com/theme/cocoon/assets/img/portfolio/xhome-port9.png.pagespeed.ic.SKly-yMY6I.webp">
+</body>
+</html>
